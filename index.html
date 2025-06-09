@@ -3,61 +3,599 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - John Doe</title>
+    <title>Eddy Kubwimana | Fintech Entrepreneur & CEO</title>
+    <meta name="description" content="Eddy Kubwimana - Computer Science Graduate from Ashesi University, Founder and CEO of PayVista Group. Innovating payments through technology across Africa.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <h1>John Doe</h1>
-            <p>Computer Science Student | Developer | Innovator</p>
-        </header>
-        
-        <!-- Projects Section -->
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project" onmouseover="scaleUp(this)" onmouseout="scaleDown(this)">
-                    <h3>AI Chatbot</h3>
-                    <p>A chatbot built with Python and GPT-3 API.</p>
-                    <a href="#">View on GitHub</a>
-                </div>
-                <div class="project" onmouseover="scaleUp(this)" onmouseout="scaleDown(this)">
-                    <h3>E-commerce Platform</h3>
-                    <p>A full-stack MERN e-commerce web app.</p>
-                    <a href="#">View on GitHub</a>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Skills Section -->
-        <section class="skills">
-            <h2>Skills</h2>
-            <p>JavaScript, Python, React, Node.js, SQL, Machine Learning</p>
-        </section>
-        
-        <!-- Extracurricular Activities -->
-        <section class="activities">
-            <h2>Extracurricular Activities</h2>
-            <ul>
-                <li>President of Coding Club</li>
-                <li>Winner of National Hackathon 2023</li>
-                <li>Volunteer at Open Source Projects</li>
+    <!-- Particle Background -->
+    <div class="particle-background"></div>
+    
+    <!-- Gradient Overlay -->
+    <div class="gradient-overlay"></div>
+    
+    <!-- Luxury Navigation -->
+    <nav class="luxury-nav">
+        <div class="nav-container">
+            <div class="logo">EK</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </section>
-        
-        <!-- Contact Section -->
-        <section class="contact">
-            <h2>Contact</h2>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#contact" class="cta-button">
+                <span>Hire Me</span>
+                <i class="fas fa-paper-plane"></i>
+            </a>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
             </div>
-        </section>
-    </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Improving the life of unbanked individuals Through financial services and technology
+            </h1>
+            <p class="hero-subtitle">Eddy Kubwimana - Computer Science Graduate | CEO & Founder of PayVista</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="cta-button">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="secondary-button">
+                    <span>Get In Touch</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-container">
+                <img src="/images/eddy_supa.jpg" alt="Eddy Kubwimana" class="profile-img">
+            </div>
+            <div class="tech-badge">
+                <i class="fab fa-js" title="JavaScript"></i>
+                <i class="fab fa-python" title="Python"></i>
+                <i class="fab fa-react" title="React"></i>
+                <i class="fab fa-node-js" title="Node.js"></i>
+                <i class="fab fa-aws" title="AWS"></i>
+                <i class="fab fa-docker" title="Docker"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="about-section">
+            <div class="about-content">
+                <p>I am an Ashesi University Computer Science graduate with a passion for tackling financial exclusion in underdeveloped countries through fintech innovation and digital transformation. I am also a Founder and CEO of PayVista,  a fintech startup addressing financial exlusion in Burundi, I lead efforts to digitize cash transfers within burundi and internationally, enhance mobile money ecosystems, and expand access to microloans for underserved communities in Burundi at PayVista.</p>
+                <p>My journey in financial technology began with a curiosity about how mobile money has transformed the financial landscape, which lead me to use entrepreneurial and computer science skills  to build solutions that impact thousands across Burundi. I specialize in mobile apps,  scalable fintech infrastructure that bridges the gap between traditional banking and digital financial services tailored to unbanked populations.</p>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Countries</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">$50M+</div>
+                        <div class="stat-label">Annual Processing</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100K+</div>
+                        <div class="stat-label">Customers</div>
+                    </div>
+                     <div class="stat-card">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Agents</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Startups Incubated</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Employees</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="education-card glass-card">
+                    <h3>Education & Awards</h3>
+                    <div class="education-item">
+                        <h3>Ashesi University</h3>
+                        <p>BSc. Computer Science</p>
+                        <p class="date">2022 - 2025</p>
+                    </div>
+
+                    <div class="education-item">
+                        <h3>Ashesi University</h3>
+                        <p>Capstone Honorable Mentions</p>
+                        <p class="date">   - 2025</p>
+                    </div>
+
+
+                     <div class="education-item">
+                        <h3>Scholar Entrepreneurship Fund</h3>
+                        <p>Mastercard Foundation</p>
+                        <p class="date">2025</p>
+                    </div>
+                     <div class="education-item">
+                        <h3>Community Entrepreneurship Grant</h3>
+                        <p>Ashesi Entrepreneurship Center</p>
+                        <p class="date">2025</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Palantir Global Impact Scholarship</h3>
+                        <p>Palantir Technologies</p>
+                        <p class="date">2022</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Mastercard Foundation Scholarship</h3>
+                        <p>Mastercard Foundation</p>
+                        <p class="date">2021-2025</p>
+                    </div>
+
+                     <div class="education-item">
+                        <h3>Tujenge Scholar Program</h3>
+                        <p>Tujenge Africa Foundation</p>
+                        <p class="date">2020-2021</p>
+                    </div>
+                
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <h2>Core Competencies</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Programming  in Java, Python, C++, dart</span>
+                        <span class="skill-percent">98%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 98%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Project Management</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">System Architecture</span>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Software engineering</span>
+                        <span class="skill-percent">86%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 86%;"></div>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+            
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-chart-line"></i> Business Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Writing proposal</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Financial Modeling</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                 <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Risk Assessment</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Market Analysis</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-chart-line"></i> Business Skills</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Product Strategy</span>
+                        <span class="skill-percent">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Financial Modeling</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Market Analysis</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Market Analysis</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-users"></i> Leadership</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Team Building</span>
+                        <span class="skill-percent">93%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 93%;"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Market Analysis</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Public Speaking</span>
+                        <span class="skill-percent">87%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 87%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span class="skill-name">Strategic Planning</span>
+                        <span class="skill-percent">91%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 91%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section timeline-section">
+        <div class="section-header">
+            <h2>Professional Journey</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Founder & CEO</h3>
+                        <h4>PayVista</h4>
+                        <p>Leading Burundi's next-generation payment platform with operations in 6 countries and processing over $6M annually. Spearheaded the development of cross-border payment solutions in Burundi serving 1K+ users.</p>
+                        <a href="https://www.payvistagroup.com" target="_blank" class="timeline-link">
+                            Visit PayVista <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2022</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Software Engineer</h3>
+                        <h4>PayVista</h4>
+                        <p>Developed core money transfers solutions for PayVista, serving 1k+ customers across East Africa. Implemented microservices architecture that improved transaction processing by 80%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Tech Intern</h3>
+                        <h4>Andela</h4>
+                        <p>Worked on distributed systems and microservices architecture for enterprise applications. Contributed to open-source projects used by Fortune 500 companies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2019</div>
+                    <div class="timeline-content glass-card">
+                        <h3>Research Assistant</h3>
+                        <h4>Ashesi University</h4>
+                        <p>Conducted research on blockchain applications for financial inclusion in emerging markets. Published paper on decentralized identity solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <h2>Notable Projects</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass-card">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                <div class="project-overlay">
+                    <h3 class="project-title">PayVista Platform</h3>
+                    <p class="project-description">Africa's most innovative cross-border payment solution with AI-powered fraud detection and blockchain settlement.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Blockchain</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                    <a href="https://www.payvistagroup.com" target="_blank" class="project-link">
+                        View Project <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card glass-card">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80');"></div>
+                <div class="project-overlay">
+                    <h3 class="project-title">Ashesi Fintech Lab</h3>
+                    <p class="project-description">Founded the university's first fintech research lab incubating 12 startups that have raised $5M+ in funding.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Research</span>
+                        <span class="tech-tag">Mentorship</span>
+                        <span class="tech-tag">Innovation</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-card glass-card">
+                <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');"></div>
+                <div class="project-overlay">
+                    <h3 class="project-title">AgriPay</h3>
+                    <p class="project-description">Digital payment solution for smallholder farmers adopted by 50K+ users in East Africa with 99.9% uptime.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">USSD</span>
+                    </div>
+                    <a href="#" class="project-link">
+                        Case Study <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 class="contact-heading">Let's <span>Collaborate</span> on the Next Big Thing</h3>
+                <p class="contact-text">Whether you're interested in fintech innovation, seeking a mentee or mentor, or just want to connect about financial technology in Burundi or Africa, I'd love to hear from you.</p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Me</h4>
+                            <p>eddy.kubwimana@payvistagroup.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Whatsapp Me </h4>
+                            <p>+233599346549</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Bujumbura, Burundi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Medium">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <form class="contact-form glass-card">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" placeholder=" " required>
+                    <label for="name" class="form-label">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" id="email" placeholder=" " required>
+                    <label for="email" class="form-label">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-input" id="subject" placeholder=" ">
+                    <label for="subject" class="form-label">Subject (Optional)</label>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" id="message" placeholder=" " required></textarea>
+                    <label for="message" class="form-label">Message</label>
+                </div>
+                <button type="submit" class="submit-button">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="luxury-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">EK</div>
+                <p class="footer-text">
+                     Improving the life of unbanked individuals through technology across Africa. Building financial infrastructure for the next generation.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/eddy-kubwimana" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/eddykubwimana" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Navigation</h3>
+                <div class="footer-links">
+                    <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                    <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+                    <a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a>
+                    <a href="#experience"><i class="fas fa-chevron-right"></i> Experience</a>
+                    <a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a>
+                    <a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Services</h3>
+                <div class="footer-links">
+                    <a href="#"><i class="fas fa-chevron-right"></i> Fintech Consulting</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Payment Solutions</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Technical Leadership</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Startup Mentorship</a>
+                    <a href="#"><i class="fas fa-chevron-right"></i> Public Speaking</a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p class="footer-text">
+                    Subscribe to my newsletter for insights on fintech innovation in Africa.
+                </p>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <button type="submit" class="submit-button small">
+                        Subscribe <i class="fas fa-envelope"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright">© 2023 Eddy Kubwimana. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
