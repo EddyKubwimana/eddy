@@ -102,8 +102,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Initialize particles if needed
-    // You would integrate a particle.js library here for advanced effects
     
     // Initialize all animations
     createFloatingElements();

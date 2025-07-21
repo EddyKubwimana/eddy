@@ -271,7 +271,7 @@ body {
     z-index: 1;
 }
 
-/* Hero Section - Ultra Premium */
+/* Hero Section */
 .hero-section {
     min-height: 100vh;
     display: flex;
@@ -488,7 +488,7 @@ body {
     box-shadow: 0 0 20px var(--primary);
 }
 
-/* About Section - Premium Design */
+/* About Section */
 .about-section {
     display: flex;
     gap: 4rem;
@@ -605,7 +605,7 @@ body {
     font-size: 0.85rem;
 }
 
-/* Skills Section - Premium Design */
+/* Skills Section */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -680,7 +680,7 @@ body {
     transform: skewX(-20deg);
 }
 
-/* Experience Section - Premium Timeline */
+/* Experience Section */
 .timeline-section {
     position: relative;
 }
@@ -798,7 +798,7 @@ body {
     transform: translateX(5px);
 }
 
-/* Projects Section - Premium Grid */
+/* Projects Section  */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -923,7 +923,7 @@ body {
     transform: translateX(5px);
 }
 
-/* Contact Section - Premium Design */
+/* Contact Section  */
 .contact-section {
     position: relative;
 }
@@ -1114,7 +1114,7 @@ textarea.form-input {
     transform: translateX(5px);
 }
 
-/* Footer - Premium Design */
+/* Footer  */
 .luxury-footer {
     background: var(--darkest);
     padding: 5rem 2rem 3rem;
