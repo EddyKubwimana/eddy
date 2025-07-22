@@ -5,6 +5,11 @@
     --primary-light: #F8D12F;
     --primary-ultralight: #FCE588;
     
+
+    --text-light: #ddd;
+    --text-muted: #aaa;
+    --bg-dark: #111;
+    --accent-bg: rgba(255, 255, 255, 0.03);
     /* Sophisticated Dark Neutrals */
     --dark: #0B0E11;
     --darker: #080B0F;
@@ -846,6 +851,82 @@ body {
 .read-more i {
     margin-left: 0.5rem;
 }
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+  .blog-header {
+    background: linear-gradient(45deg, 
+        rgba(240, 185, 11, 0.03) 0%, 
+        rgba(2, 192, 118, 0.03) 50%, 
+        rgba(39, 117, 202, 0.03) 100%);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .blog-header h1 {
+    font-size: 2.8rem;
+    margin: 0;
+  }
+  .blog-meta {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-top: 1rem;
+  }
+  .blog-hero-image {
+    width: 100%;
+    border-radius: 12px;
+    margin: 2rem 0;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  .blog-content h2 {
+    color: var(--primary);
+    margin-top: 2.5rem;
+    font-size: 1.6rem;
+  }
+  .blog-content p {
+    margin: 1.2rem 0;
+    font-size: 1.1rem;
+  }
+  .blog-content strong {
+    color: #fff;
+  }
+  .blog-content blockquote {
+    font-style: italic;
+    border-left: 4px solid var(--primary);
+    padding-left: 1rem;
+    color: var(--text-muted);
+    margin: 2rem 0;
+  }
+  .references {
+    padding-left: 1.25rem;
+    margin-top: 2rem;
+  }
+  .references li {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+  .blog-footer {
+    text-align: center;
+    font-size: 0.95rem;
+    padding: 2rem 1rem;
+    background: linear-gradient(45deg, 
+        rgba(240, 185, 11, 0.03) 0%, 
+        rgba(2, 192, 118, 0.03) 50%, 
+        rgba(39, 117, 202, 0.03) 100%);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: var(--text-muted);
+  }
+  .blog-footer a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  .blog-footer a:hover {
+    text-decoration: underline;
+  }
 
 /* Projects Section  */
 .projects-grid {
